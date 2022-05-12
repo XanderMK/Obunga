@@ -25,8 +25,8 @@ public class PlayerMovement : MonoBehaviour
     public float vertMouseSensitivity;
     public float horiMouseSensitivity;
 
-    private float yRot = 0;
-    private float xRot = 0;
+    private float yRot = 0f;
+    private float xRot = 0f;
     private bool isThirdPerson = false;
 
     void Awake()
